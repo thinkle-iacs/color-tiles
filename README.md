@@ -16,7 +16,7 @@ Use shades and tints of your assigned color, with supporting colors as needed fo
 
 1. Open `index.html` in a browser. It contains two starter surfaces.
 2. Replace the starter text and add an image to each tile. Save image files in this repo and use relative paths, such as `images/my-photo.jpg`, with descriptive `alt` text.
-3. Edit `styles.css`. Change `.tile-one` and `.tile-two` to match your assigned colors, then design each tile's layout and typography. Add your own classes as needed. Keep the `.surface` dimensions at 6 inches square.
+3. Edit `styles.css`. Change `.tile-one` and `.tile-two` to match your assigned colors, then design each tile's layout and typography. Add your own classes as needed. Keep the `.tile` dimensions at 6 inches square.
 4. Check both designs in the browser and in print preview. Keep all text and images inside the squares.
 
 **Finish both tiles in one class period.** Spend a few minutes choosing your ideas, most of the period designing, and the last few minutes checking your work and pushing your changes.
@@ -30,6 +30,6 @@ Use shades and tints of your assigned color, with supporting colors as needed fo
 
 ## Printing
 
-Print `index.html` on Letter paper in portrait orientation at **100% / Actual size**. Turn on **background graphics** and turn off browser headers and footers. The stylesheet puts each tile on its own page. Avoid “Fit to page,” which can change the tile size.
+Print `index.html` on Letter paper in portrait orientation at **100% / Actual size**. Turn on **background graphics** and turn off browser headers and footers. Avoid “Fit to page,” which can change the tile size.
 
 The CSS sets each square to 6 inches × 6 inches for print. Its apparent size on a screen depends on your display and browser zoom. Trim the printed pages to the edges of the squares for the class display.
