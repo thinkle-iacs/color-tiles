@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+/* The space around your tiles is only for viewing them on screen. */
+body {
+  margin: 0;
+  padding: 24px;
+  background: #e8e8e8;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: grid;
+  gap: 24px;
+  justify-items: center;
+}
+
+/* Keep these dimensions: padding is included in the 6-inch square. */
+.surface {
+  width: 6in;
+  height: 6in;
+  padding: 0.35in;
+  overflow: hidden;
+}
+
+/* Replace these starter colors and add your own design styles. */
+.tile-one {
+  background: #ffd6d6;
+  color: #521414;
+}
+
+.tile-two {
+  background: #d6e6ff;
+  color: #142e52;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Print each tile on its own sheet, preserving its size and colors. */
+@page {
+  size: letter portrait;
+  margin: 0.5in;
+}
+
+@media print {
+  body {
+    padding: 0;
+    background: white;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  main {
+    display: block;
+  }
+
+  .surface {
+    margin: 0 auto;
+    break-inside: avoid;
+    break-after: page;
+  }
+
+  .surface:last-child {
+    break-after: auto;
+  }
+}
