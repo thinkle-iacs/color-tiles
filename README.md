@@ -14,7 +14,7 @@ Use shades and tints of your assigned color, with supporting colors as needed fo
 
 ## Get started
 
-1. Open `index.html` in a browser. It contains two starter surfaces.
+1. Run `npm start`. In Codespaces, open port **5500** from the Ports tab to preview your two tiles. Locally, open `http://localhost:5500`.
 2. Replace the starter text and add an image to each tile. Save image files in this repo and use relative paths, such as `images/my-photo.jpg`, with descriptive `alt` text.
 3. Edit `styles.css`. Change `.tile-one` and `.tile-two` to match your assigned colors, then design each tile's layout and typography. Add your own classes as needed. Keep the `.tile` dimensions at 6 inches square.
 4. Check both designs in the browser and in print preview. Keep all text and images inside the squares.
